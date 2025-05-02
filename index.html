@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mi Página Web</title>
+  <link rel="stylesheet" href="style-01.css">
+</head>
+<body>
+  <h1>¡Hola, mundo!</h1>
+  <p>Esta es mi primera página web.</p>
+
+<form class="formu" action="/procesar_datos.php">
+  <fieldset>
+  <legend>Información personal</legend>
+  <label for="nombre">Nombre:</label>
+  <input id="nombre" type="text" placeholder="Tu nombre aquí">
+  <label for="apellido">Apellido:</label>
+  <input id="apellido" type="text">
+  <label for="nacimiento">Fecha de nacimiento:</label>
+  <input id="nacimiento" type="date" name="nacimiento">
+</fieldset>
+<fieldset>
+<legend>Datos de cuenta</legend>
+  <label for="usuario">Nombre de usuario:</label>
+  <input id="usuario" type="text">
+  <label for="contrasena">Password:</label>
+  <input type="password" id="contrasena" name="contrasena">
+</fieldset>
+<button>Enviar</button> 
+</form>
+</body>
+</html>
